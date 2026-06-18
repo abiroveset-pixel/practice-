@@ -3,7 +3,7 @@ def total(*numbers):
 
 total(1,2,3,4)
 
-# **kwargs example
+
 
 def person(**info):
     print(info)
