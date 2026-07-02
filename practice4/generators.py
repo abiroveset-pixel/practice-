@@ -7,7 +7,7 @@ print(next(my_iterator))
 print(next(my_iterator))
 
 
-# Loop through an iterator
+
 fruits = ["apple", "banana", "orange"]
 
 fruit_iterator = iter(fruits)
@@ -16,7 +16,7 @@ for fruit in fruit_iterator:
     print(fruit)
 
 
-# Create a custom iterator
+
 class CountUp:
     def __iter__(self):
         self.number = 1
@@ -35,7 +35,7 @@ for value in counter:
     print(value)
 
 
-# Generator using yield
+
 def countdown(start):
     while start > 0:
         yield start
@@ -45,7 +45,7 @@ for number in countdown(5):
     print(number)
 
 
-# Generator expression
+
 squares = (x * x for x in range(5))
 
 for square in squares:
